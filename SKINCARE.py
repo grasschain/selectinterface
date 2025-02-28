@@ -27,12 +27,11 @@ g = 1 if st.checkbox("C-Firma Day Serum") else 0
 h = 1 if st.checkbox("T.L.C. Framboos Glycolic Night Serum") else 0
 
 
-# Calculate waste and needed amount
+sum = a + b + c + d + e + f + g + h
 
 # Display results
-If (a+b+c+d+e+f+g+h > 3):
-  st.write("You are making a... ", result)
-  st.write("Nutrition Facts")
-
-Else:
+if (sum > 3):
+  st.write("You are making a... )
+  st.write("DAYTIMEGLOW")
+else:
   st.write("Add another ingredient!")
