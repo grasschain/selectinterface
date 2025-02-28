@@ -33,7 +33,7 @@ sum = a + b + c + d + e + f + g + h
 if (sum > 3):
   st.header("You are making a... ")
   st.markdown(
-    "<h1 style = color: #FF69B4;'>DAYTIME GLOW</h1>", 
+    "<h1 style = color: #FF69B4 !important;'>DAYTIME GLOW</h1>", 
     unsafe_allow_html=True
 )
 else:
