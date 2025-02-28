@@ -30,11 +30,9 @@ h = 1 if st.checkbox("T.L.C. Framboos Glycolic Night Serum") else 0
 # Calculate waste and needed amount
 
 # Display results
-If (a+b+c+d+e+f+g+h > 3){
+If (a+b+c+d+e+f+g+h > 3):
   st.write("You are making a... ", result)
-  
   st.write("Nutrition Facts")
-}
-Else{
+
+Else:
   st.write("Add another ingredient!")
-}
