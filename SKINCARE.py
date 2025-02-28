@@ -4,15 +4,14 @@ import streamlit as st
 import math
 
 # Initialize variables
-protini = 0
-whipped = 0
-rosi = 0
-goldi = 0
-bronzi = 0
-hydra = 0
-cfirma = 0
-glycolic = 0
-
+a = 0
+b = 0
+c = 0
+d = 0
+e = 0
+f = 0
+g = 0
+h = 0
 
 st.write("Build your Skincare Smoothie")
 
