@@ -11,7 +11,7 @@ f = 0
 g = 0
 h = 0
 
-st.write("Build your Skincare Smoothie")
+st.title("Build your Skincare Smoothie")
 
 # Order quantity input
 #orderQty = int(st.number_input("Order Qty", min_value=0, step=1))
@@ -20,7 +20,7 @@ st.write("Build your Skincare Smoothie")
 a = 1 if st.checkbox("Protini Polypeptide Cream") else 0
 b = 1 if st.checkbox("Lala Retro Whipped Cream") else 0
 c = 1 if st.checkbox("O-Bloos Rosi Drops") else 0
-d = 1 if st.checkbox("B=Goldi Bright Drops") else 0
+d = 1 if st.checkbox("B-Goldi Bright Drops") else 0
 e = 1 if st.checkbox("D-Bronzi Anti-Pollution Sunshine Drops") else 0
 f = 1 if st.checkbox("B-Hydra Intensive Hydration Serum") else 0
 g = 1 if st.checkbox("C-Firma Day Serum") else 0
@@ -31,7 +31,7 @@ sum = a + b + c + d + e + f + g + h
 
 # Display results
 if (sum > 3):
-  st.write("You are making a... ")
-  st.write("DAYTIMEGLOW")
+  st.header("You are making a... ")
+  st.header("DAYTIME GLOW")
 else:
-  st.write("Add another ingredient!")
+  st.header("Add another ingredient!")
