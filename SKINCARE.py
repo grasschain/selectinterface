@@ -31,7 +31,7 @@ sum = a + b + c + d + e + f + g + h
 
 # Display results
 if (sum > 3):
-  st.write("You are making a... )
+  st.write("You are making a... ")
   st.write("DAYTIMEGLOW")
 else:
   st.write("Add another ingredient!")
