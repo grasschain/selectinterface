@@ -17,8 +17,8 @@ st.write("Build your Skincare Smoothie")
 #orderQty = int(st.number_input("Order Qty", min_value=0, step=1))
 
 # Checkboxes to determine ingredient
-a = 1 if st.checkbox("Protini") else 0
-b = 1 if st.checkbox("Lala Whipped") else 0
+a = 1 if st.checkbox("Protini Polypeptide Cream") else 0
+b = 1 if st.checkbox("Lala Retro Whipped Cream") else 0
 c = 1 if st.checkbox("O-Bloos Rosi Drops") else 0
 d = 1 if st.checkbox("B=Goldi Bright Drops") else 0
 e = 1 if st.checkbox("D-Bronzi Anti-Pollution Sunshine Drops") else 0
