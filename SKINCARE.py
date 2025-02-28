@@ -11,7 +11,7 @@ f = 0
 g = 0
 h = 0
 
-st.title("Build your Skincare Smoothie")
+st.title("Build a Skincare Smoothie")
 
 # Order quantity input
 #orderQty = int(st.number_input("Order Qty", min_value=0, step=1))
@@ -32,9 +32,6 @@ sum = a + b + c + d + e + f + g + h
 # Display results
 if (sum > 3):
   st.header("You are making a... ")
-  st.markdown(
-    "<h1 style = color: #FF69B4 !important;'>DAYTIME GLOW</h1>", 
-    unsafe_allow_html=True
-)
+
 else:
   st.header("Add another ingredient!")
