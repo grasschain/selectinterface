@@ -31,7 +31,7 @@ sum = a + b + c + d + e + f + g + h
 
 # Display results
 if (sum > 3):
-  st.header("You are making a... ")
+  st.header("Blending... ")
 
 else:
   st.header("Add another ingredient!")
